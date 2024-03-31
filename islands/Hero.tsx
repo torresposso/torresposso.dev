@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { AuroraBackground } from "@/components/ui/aurora-background.tsx";
+import { AuroraBackground } from "@/islands/ui/aurora-background.tsx";
 
 export function Hero() {
   return (

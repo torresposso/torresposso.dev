@@ -6,6 +6,7 @@ import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $Hero from "./islands/Hero.tsx";
+import * as $ui_aurora_background from "./islands/ui/aurora-background.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -16,6 +17,7 @@ const manifest = {
   },
   islands: {
     "./islands/Hero.tsx": $Hero,
+    "./islands/ui/aurora-background.tsx": $ui_aurora_background,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
