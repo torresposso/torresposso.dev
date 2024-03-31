@@ -27,15 +27,15 @@
     "preact/": "https://esm.sh/preact@10.19.6/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
-    "tailwindcss": "https://esm.sh/tailwindcss@3.4.3",
-    "tailwindcss/": "https://esm.sh/tailwindcss@3.4.3/",
-    "tailwindcss/plugin": "https://esm.sh/tailwindcss@3.4.3/plugin.js",
+    "tailwindcss": "npm:tailwindcss@3.4.1",
+    "tailwindcss/": "npm:/tailwindcss@3.4.1/",
+    "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
     "$std/": "https://deno.land/std@0.216.0/",
     "react": "https://esm.sh/preact/compat",
     "react-dom": "https://esm.sh/preact/compat",
     "@types/react": "https://esm.sh/preact/compat",
-    "react/jsx-runtime": "https://esm.sh/preact/compat",
-    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom,@types/react"
+    "react/jsx-runtime": "https://esm.sh/preact/compat/jsx-runtime",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom,@types/react,react%2Fjsx-runtime"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
