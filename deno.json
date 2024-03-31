@@ -23,19 +23,19 @@
   "imports": {
     "@/": "./",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
-    "preact": "https://esm.sh/preact@10.19.6",
-    "preact/": "https://esm.sh/preact@10.19.6/",
-    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
-    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
+    "preact": "https://esm.sh/preact@10.20.1",
+    "preact/": "https://esm.sh/preact@10.20.1/",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.3",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.6.0",
     "tailwindcss": "npm:tailwindcss@3.4.1",
     "tailwindcss/": "npm:/tailwindcss@3.4.1/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
-    "$std/": "https://deno.land/std@0.216.0/",
-    "react": "https://esm.sh/preact/compat",
-    "react-dom": "https://esm.sh/preact/compat",
+    "$std/": "https://deno.land/std@0.221.0/",
+    "react": "https://esm.sh/preact@10.20.1/compat",
+    "react-dom": "https://esm.sh/preact@10.20.1/compat",
+    "react/jsx-runtime": "https://esm.sh/preact@10.20.1/compat",
     "@types/react": "https://esm.sh/preact/compat",
-    "react/jsx-runtime": "https://esm.sh/preact/jsx-runtime",
-    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom,@types/react,react%2Fjsx-runtime"
+    "framer-motion": "https://esm.sh/framer-motion@11.0.24?external=react,react-dom,@types/react,react%2Fjsx-runtime&target=es2022"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
