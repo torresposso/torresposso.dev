@@ -34,8 +34,8 @@
     "react": "https://esm.sh/preact/compat",
     "react-dom": "https://esm.sh/preact/compat",
     "@types/react": "https://esm.sh/preact/compat",
-    "react/jsx-runtime": "https://esm.sh/preact/jsx-runtime",
-    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom,@types/react,react%2Fjsx-runtime"
+    "react/jsx-runtime": "https://esm.sh/preact/compat",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom,@types/react"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

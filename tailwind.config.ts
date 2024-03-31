@@ -37,7 +37,7 @@ export default {
   },
 } satisfies Config;
 
-// @ts-ignore no types ATM
+// deno-lint-ignore no-explicit-any
 function addVariablesForColors({ addBase, theme }: any) {
   const allColors = flattenColorPalette(theme("colors"));
   const newVars = Object.fromEntries(
