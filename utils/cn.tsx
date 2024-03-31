@@ -1,6 +1,6 @@
-import { ClassValue, clsx } from "npm:clsx";
-import { twMerge } from "npm:tailwind-merge";
- 
+import { ClassValue, clsx } from "https://esm.sh/clsx@2.1.0";
+import { twMerge } from "https://esm.sh/tailwind-merge@2.2.2";
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }

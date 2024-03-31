@@ -1,5 +1,5 @@
 import { type Config } from "tailwindcss";
-import flattenColorPalette from "https://esm.sh/tailwindcss@3.4.1/lib/util/flattenColorPalette";
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 
 export default {
   content: [
