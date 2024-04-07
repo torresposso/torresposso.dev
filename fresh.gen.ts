@@ -4,20 +4,32 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $blog_slug_ from "./routes/blog/[slug].tsx";
+import * as $blog_layout from "./routes/blog/_layout.tsx";
+import * as $blog_index from "./routes/blog/index.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $Footer from "./islands/Footer.tsx";
 import * as $Hero from "./islands/Hero.tsx";
+import * as $Navbar from "./islands/Navbar.tsx";
 import * as $ui_aurora_background from "./islands/ui/aurora-background.tsx";
+import * as $ui_background_gradient from "./islands/ui/background-gradient.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/blog/[slug].tsx": $blog_slug_,
+    "./routes/blog/_layout.tsx": $blog_layout,
+    "./routes/blog/index.tsx": $blog_index,
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/Footer.tsx": $Footer,
     "./islands/Hero.tsx": $Hero,
+    "./islands/Navbar.tsx": $Navbar,
     "./islands/ui/aurora-background.tsx": $ui_aurora_background,
+    "./islands/ui/background-gradient.tsx": $ui_background_gradient,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

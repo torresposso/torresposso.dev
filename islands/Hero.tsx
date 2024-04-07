@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { AuroraBackground } from "@/islands/ui/aurora-background.tsx";
+import { Navbar } from "@/islands/Navbar.tsx";
 
 export function Hero() {
   return (
@@ -77,6 +78,48 @@ export function Hero() {
                 </svg>
               </a>
             </div>
+          </div>
+        </div>
+        <div>
+          <div className="pt-10 flex justify-center h-16 mx-auto text-white">
+            <ul className="items-stretch hidden space-x-3 md:flex">
+              <li className="flex">
+                <a
+                  rel="noopener noreferrer"
+                  href="/about"
+                  className="flex items-center px-4 -mb-1"
+                >
+                  About
+                </a>
+              </li>
+              <li className="flex">
+                <a
+                  rel="noopener noreferrer"
+                  href="/blog"
+                  className="flex items-center px-4 -mb-1 "
+                >
+                  Blogo
+                </a>
+              </li>
+              <li className="flex">
+                <a
+                  rel="noopener noreferrer"
+                  href="/projects"
+                  className="flex items-center px-4 -mb-1 "
+                >
+                  Projects
+                </a>
+              </li>
+              <li className="flex">
+                <a
+                  rel="noopener noreferrer"
+                  href="/ "
+                  className="flex items-center px-4 -mb-1 "
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </motion.div>
