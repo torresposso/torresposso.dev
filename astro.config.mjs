@@ -7,6 +7,8 @@ import node from '@astrojs/node';
 
 import tailwind from '@astrojs/tailwind';
 
+import netlify from '@astrojs/netlify';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://torresposso.dev',
@@ -16,7 +18,5 @@ export default defineConfig({
     host: '0.0.0.0',
   },
 
-  adapter: node({
-    mode: 'standalone',
-  }),
+  adapter: netlify(),
 });
