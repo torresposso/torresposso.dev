@@ -18,5 +18,7 @@ export default defineConfig({
     host: '0.0.0.0',
   },
 
-  adapter: netlify(),
+  adapter: node({
+    mode: 'standalone',
+  }),
 });
