@@ -11,7 +11,4 @@ export default defineConfig({
   integrations: [mdx(), sitemap()],
   compressHTML: true,
 
-  adapter: node({
-    mode: 'standalone',
-  }),
 });
