@@ -1,0 +1,17 @@
+[[build]]
+command = "npm run build"
+publish = "dist"
+
+[[phases]]
+name = "install"
+commands = ["npm install"]
+
+[[phases]]
+name = "build"
+commands = ["npm run build"]
+
+[[providers]]
+name = "node"
+
+[env]
+NIXPACKS_NODE_VERSION = "18"
