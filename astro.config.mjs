@@ -11,6 +11,10 @@ export default defineConfig({
   integrations: [mdx(), sitemap()],
   compressHTML: true,
   output: 'server',
+  server: {
+    host: '0.0.0.0'
+    
+  },
   adapter: node({
     mode: 'standalone',
   }),
