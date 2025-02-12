@@ -10,12 +10,8 @@ export default defineConfig({
   site: 'https://torresposso.dev',
   integrations: [mdx(), sitemap()],
   compressHTML: true,
-  output: 'static',
   server: {
     host: '0.0.0.0'
     
   },
-  adapter: node({
-    mode: 'standalone',
-  }),
 });
