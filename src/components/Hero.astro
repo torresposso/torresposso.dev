@@ -1,0 +1,26 @@
+---
+import Picture from "astro/components/Picture.astro";
+import { Image } from "astro:assets";
+---
+
+<div class="max-w-4xl mx-auto p-4">
+    <figure class="flex gap-4">
+        <Picture
+            src="https://avatars.githubusercontent.com/u/48160415"
+            alt="Avatar"
+            width="65"
+            height="65"
+            class="rounded-full"
+        />
+        <figcaption>
+            <h1 class="text-4xl font-bold">Erick Torres Posso</h1>
+            <p class="text-neutral-500">Software Engineer</p>
+        </figcaption>
+    </figure>
+    <p class="mt-4 text-3xl tracking-tight leading-relaxed px-4">
+        I'm a software engineer with a passion for building things that make a
+        difference. I'm currently working at <a
+            href="https://www.mercadolibre.com.ar">MercadoLibre</a
+        > as a software engineer.
+    </p>
+</div>

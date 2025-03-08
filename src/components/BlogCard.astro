@@ -1,0 +1,19 @@
+---
+const {
+    post: { title, description, heroImage },
+} = Astro.props;
+console.log("astro props", Astro.props);
+---
+
+<div class="card bg-base-300 shadow-xl">
+    <figure>
+        <img src={heroImage} alt={title} />
+    </figure>
+    <div class="card-body">
+        <h2 class="card-title">{title}</h2>
+        <p>{description}</p>
+        <div class="card-actions justify-end">
+            <button class="btn btn-neutral">Buy Now</button>
+        </div>
+    </div>
+</div>

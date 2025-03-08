@@ -1,0 +1,9 @@
+---
+import BlogCard from "./BlogCard.astro";
+
+const { posts } = Astro.props;
+---
+
+<div class="grid lg:grid-cols-2 gap-6">
+    {posts.map((post) => <BlogCard post={post.data} />)}
+</div>
